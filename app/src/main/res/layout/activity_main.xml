@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/six"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:background="#e4dcdc"
+        android:text="6" />
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Close" />
+
+    <Button
+        android:id="@+id/nine"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="173dp"
+        android:background="#e4dcdc"
+        android:text="9" />
+
+    <Button
+        android:id="@+id/one"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignStart="@+id/six"
+        android:layout_alignTop="@+id/three"
+        android:background="#e4dcdc"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/four"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:background="#e4dcdc"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/seven"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/nine"
+        android:background="#e4dcdc"
+        android:text="7" />
+
+    <Button
+        android:id="@+id/three"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="169dp"
+        android:background="#e4dcdc"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/eight"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/nine"
+        android:layout_marginStart="87dp"
+        android:background="#e4dcdc"
+        android:text="8" />
+
+    <Button
+        android:id="@+id/minmus"
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/six"
+        android:text="-"
+        android:textSize="12pt" />
+
+    <Button
+        android:id="@+id/five"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignStart="@+id/eight"
+        android:layout_centerVertical="true"
+        android:background="#e4dcdc"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/divde"
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/clear"
+        android:text="/" />
+
+    <Button
+        android:id="@+id/zero"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignStart="@+id/six"
+        android:layout_alignTop="@+id/clear"
+        android:background="#e4dcdc"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/mult"
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="180dp"
+        android:text="*"
+        android:textSize="12pt" />
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/one"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/clear"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="75dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="66dp"
+        android:background="#e4dcdc"
+        android:text="Clear" />
+
+    <Button
+        android:id="@+id/equal"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignStart="@+id/eight"
+        android:layout_alignTop="@+id/divde"
+        android:background="#e4dcdc"
+        android:text="=" />
+
+    <Button
+        android:id="@+id/two"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignStart="@+id/eight"
+        android:layout_alignTop="@+id/one"
+        android:background="#e4dcdc"
+        android:text="2" />
+
+    <TextView
+        android:id="@+id/resu"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textSize="20dp"/>
+</RelativeLayout>
